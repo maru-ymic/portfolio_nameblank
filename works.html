@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My | portfolio</title>
+    <meta name="description" content="ポートフォリオサイトです。">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="format-detection" content="telephone=no,address=no,date=no,email=no">
+    <link rel="icon" href="images/header_mv/favicon.ico" id="favicon">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/header_mv/apple-touch-icon.png">
+    <!-- フォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Gelasio&family=Montserrat:wght@100&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/works_pc.css" media="print,screen  and (min-width:768px)">
+    <link rel="stylesheet" href="css/works_sp.css" media="all and (max-width: 767px)">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    <script src="js/works.js" defer></script> 
+  </head>
+  <body>
+    <div id="home" class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="inner">
+          <!-- ロゴ -->
+          <div class="header_inner">
+            <a href="index.html" class="header_logo">
+              <img src="images/header_mv/my_logo_y.png" alt="アイコン">
+            </a>
+            <!-- pc nav -->
+            <ul class="header_inner_list">
+              <li class="header_inner_listItem">
+                <a href="index.html" class="h-hover-op">About</a>
+              </li>
+              <li class="header_inner_listItem">
+                <a href="" class="line">Works</a>
+              </li>
+              <li class="header_inner_listItem">
+                <a href="photography.html" class="h-hover-op">Photography</a>
+              </li>
+              <li class="header_inner_listItem">
+                <a href="contact.html" class="h-hover-op">Contact</a>
+              </li>
+            </ul>
+            <!-- pc nav -->
+
+            <!-- sp nav -->
+            <div class="sp-nav">
+              <!-- ハンバーガーメニュー -->
+              <button id="js-hamberger" type="button" class="hamberger" aria-controls="navigation" aria-expanded="false">
+                <span class="hamberger__line"></span>
+              </button>
+              <!-- ハンバーガーメニュー -->
+
+              <!-- 中身 -->
+              <div class="header__nav-area js-nav-area" id="navigation">
+                <nav id="js-global-navigation" class="global-navigation">
+                  <ul class="global-navigation__list">
+                    <li>
+                      <a href="index.html">About</a>
+                    </li>
+                    <li>
+                      <a href="works.html">Works</a>
+                    </li>
+                    <li>
+                      <a href="photography.html">Photography</a>
+                    </li>
+                    <li>
+                      <a href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- 中身 -->
+            </div>
+            <!-- sp nav -->
+          </div>
+          <!-- ロゴ -->
+        </div>
+      </header>
+      <!-- header -->
+
+      <!-- mv -->
+      <div class="mainVisual">
+        <div class="inner">
+          <div id="mv_back"></div>
+          <div class="mv_wrapper">
+            <div class="mv_wrapper_txt">
+              <h2>
+                My name is<br>
+                written here!
+              </h2>
+              <h3>-&nbsp;Web&nbsp;Design&nbsp;Portfolio&nbsp;Website&nbsp;-</h3>
+            </div>
+          </div>
+          <div id="gif"></div>
+        </div>
+      </div>
+      <!-- mv -->
+
+      <!-- メインエリア -->
+      <div id="container">
+        <main id="main-area">
+          <!-- works -->
+          <section id="works-area" class="header-change-position">
+            <div class="inner">
+              <div class="works-content">
+                <h2 class="works-title">Works</h2>
+                <div class="works-content-main">
+                  <ul class="works-column">
+                    <!-- 木材サイト -->
+                    <li class="works02">
+                      <button type="button" tabindex="-1" class="js-modalButton modal-button" data-id="modal2">
+                      <img src="images/career_works/mouzai.png" alt="mouzai">
+                      </button>
+                      <p class="column_txt">リニューアルサイト<br>
+                        （企業実習先の案件）
+                      </p>
+                      <!-- 閉じるボタン -->
+                      <div class="js-modal modal" data-id="modal2">
+                        <button type="button" tabindex="-1" class="js-modalClose modal-close">✕</button>
+                        <div class="modal-inner mokuzai">
+                          <h2>リニューアルサイト</h2>
+                          <ul class="pop_text">
+                            <li>
+                              <span class="txt_up">作品について</span>
+                              <p class="pop_text_in">
+                                木材の加工や配送を行う企業様のリニューアルサイトを作成しました。<br>
+                                企業実習先での案件です。トップページのみで、会社名は架空のものに変更しています。
+                              </p>
+                            </li>
+                            <li>
+                              <span>課題</span>
+                              <p class="pop_text_in">
+                                サイトが古くなってきたので新しくしたい。環境対策商品を扱っているため、SDGsロゴを導入してほしい。
+                              </p>
+                            </li>
+                            <li>
+                              <span>目的</span>
+                              <p class="pop_text_in">
+                                木材の種類や商品紹介をより詳細にすることで、新規のお客様にも安心してご利用いただけることを目的としました。
+                              </p>
+                            </li>
+                            <li>
+                              <span>制作期間</span>
+                              <p class="pop_text_in">
+                                1ヶ月<br>
+                                内訳：<br>
+                                情報収集：１週間<br>
+                                デザイン：１週間<br>
+                                コーディング：２週間
+                              </p>
+                            </li>
+                            <li>
+                              <span>制作担当</span>
+                              <p class="pop_text_in">
+                                デザイン、コーディング
+                              </p>
+                            </li>
+                            <li>
+                              <span>使用技術</span>
+                              <p class="pop_text_in">
+                                HTML , CSS , JavaScript
+                              </p>
+                            </li>
+                            <li>
+                              <span>使用ツール</span>
+                              <p class="pop_text_in-tool">
+                                Adobe Illustrator , Adobe Photoshop , Adobe XD , <br>
+                                Visual Studio Code
+                              </p>
+                            </li>
+                            <li>
+                              <span>作品 URL</span>
+                              <p class="pop_text_in">
+                                <a href="https://maru-ymic.github.io/mokuzai/" target="_blank">
+                                  https://maru-ymic.github.io/mokuzai/
+                                </a>
+                              </p>
+                            </li>
+                          </ul>
+                          <div class="pc_mokuzai"></div>
+                          <div class="sp_desgin">
+                            <div class="sp_mokuzai_l"></div>
+                            <div class="sp_mokuzai_r"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- 閉じるボタン -->
+                    </li>
+                    <!-- 木材サイト -->
+
+                    <!-- マリーナサイト -->
+                    <li class="works03">
+                      <button type="button" tabindex="-1" class="js-modalButton modal-button" data-id="modal3">
+                      <img src="images/career_works/marina.png" alt="marina">
+                      </button>
+                      <p class="column_txt">駐艇場の新規サイト<br>
+                        （職業訓練校 実制作）
+                      </p>
+                      <!-- 閉じるボタン -->
+                      <div class="js-modal modal" data-id="modal3">
+                        <button type="button" tabindex="-1" class="js-modalClose modal-close">✕</button>
+                        <div class="modal-inner marina">
+                          <h2>駐艇場の新規サイト</h2>
+                          <ul class="pop_text">
+                            <li>
+                              <span class="txt_up">作品について</span>
+                              <p class="pop_text_in">
+                                駐艇場として船舶の保管をされている会員制マリーナの新規WEBサイトを作成しました。<br>
+                                ※ レスポンシブ非対応となっています。
+                              </p>
+                            </li>
+                            <li>
+                              <span>課題</span>
+                              <p class="pop_text_in">
+                                デジタルコンテンツでの発信がないため、予約状況など会員様からお問い合わせがある。
+                              </p>
+                            </li>
+                            <li>
+                              <span>目的</span>
+                              <p class="pop_text_in">
+                                会員様向けに琵琶湖の波の状況や風速などの天候や現在の予約状況が把握できるコンテンツを導入。デジタル化に抵抗のある方でも便利なイメージを持ってもらうことでサイト利用に繋げる。
+                              </p>
+                            </li>
+                            <li>
+                              <span>制作期間</span>
+                              <p class="pop_text_in">
+                                1ヶ月<br>
+                                内訳：<br>
+                                企画：１週間<br>
+                                デザイン：２週間<br>
+                                コーディング：１週間少々
+                              </p>
+                            </li>
+                            <li>
+                              <span>制作担当</span>
+                              <p class="pop_text_in">
+                                ５人メンバーの全体の進行管理を担当<br>
+                                デザイン、コーディングを担当
+                              </p>
+                            </li>
+                            <li>
+                              <span>使用技術</span>
+                              <p class="pop_text_in">
+                                HTML , CSS , JavaScript
+                              </p>
+                            </li>
+                            <li>
+                              <span>使用ツール</span>
+                              <p class="pop_text_in-tool">
+                                Adobe Illustrator , Adobe Photoshop , Adobe XD ,<br>
+                                Visual Studio Code
+                              </p>
+                            </li>
+                            <li>
+                              <span>作品 URL</span>
+                              <p class="pop_text_in">
+                                <a href="https://maru-ymic.github.io/marina/" target="_blank">
+                                  https://maru-ymic.github.io/marina/
+                                </a>
+                              </p>
+                            </li>
+                          </ul>
+                          <div class="pc_marina"></div>
+                        </div>
+                      </div>
+                      <!-- 閉じるボタン -->
+                    </li>
+                    <!-- マリーナサイト -->
+
+                    <!-- 化粧品バナー -->
+                    <li class="works04">
+                      <button type="button" tabindex="-1" class="js-modalButton modal-button" data-id="modal4">
+                        <img src="images/career_works/bnr1.png" alt="化粧品のバナー">
+                      </button>
+                      <p class="column_txt">化粧品セールのバナー<br>
+                        （職業訓練校 課題）
+                      </p>
+                      <!-- 閉じるボタン -->
+                      <div class="js-modal modal" data-id="modal4">
+                        <button type="button" tabindex="-1" class="js-modalClose modal-close">✕</button>
+                        <div class="modal-inner bnr">
+                          <h2>化粧品セールのバナー</h2>
+                          <div class="bnr0"></div>
+                          <ul class="pop_text">
+                            <li>
+                              <span>ターゲット</span>
+                              <p class="pop_text_in">
+                                30代～40代の女性
+                              </p>
+                            </li>
+                            <li>
+                              <span>課題</span>
+                              <p class="pop_text_in">
+                                セール告知を見ていないお客様へのセール誘導
+                              </p>
+                            </li>
+                            <li>
+                              <span>目的</span>
+                              <p class="pop_text_in">
+                                バナーをクリックしてもらい、集客を増やす。
+                              </p>
+                            </li>
+                            <li>
+                              <span>使用ツール</span>
+                              <p class="pop_text_in">
+                                Adobe Photoshop
+                              </p>
+                            </li>
+                            <li>
+                              <span class="txt_up">作品について</span>
+                              <p class="pop_text_in">
+                                ECサイト内に設置するバナーという題材で作成しました。<br>
+                                化粧品とすぐにわかる写真を選び、文字にインパクトを持たせるように編集しました。
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- 閉じるボタン -->
+                    </li>
+                    <!-- 化粧品バナー -->
+
+                    <!-- サマーセールのバナー -->
+                    <li class="works05">
+                      <button type="button" tabindex="-1" class="js-modalButton modal-button" data-id="modal5">
+                        <img src="images/career_works/bnr2.png" alt="サマーセールのバナー">
+                      </button>
+                      <p class="column_txt">サマーセールのバナー<br>
+                        （職業訓練校 課題）
+                      </p>
+                      <!-- 閉じるボタン -->
+                      <div class="js-modal modal" data-id="modal5">
+                        <button type="button" tabindex="-1" class="js-modalClose modal-close">✕</button>
+                        <div class="modal-inner bnr">
+                          <h2>サマーセールのバナー</h2>
+                          <div class="bnr1"></div>
+                          <ul class="pop_text">
+                            <li>
+                              <span>ターゲット</span>
+                              <p class="pop_text_in">
+                                30代～40代の女性
+                              </p>
+                            </li>
+                            <li>
+                              <span>課題</span>
+                              <p class="pop_text_in">
+                                夏のセール特集ページに誘導するバナー
+                              </p>
+                            </li>
+                            <li>
+                              <span>目的</span>
+                              <p class="pop_text_in">
+                                バナーをクリックしてもらい、集客を増やす。
+                              </p>
+                            </li>
+                            <li>
+                              <span>使用ツール</span>
+                              <p class="pop_text_in">
+                                Adobe Photoshop
+                              </p>
+                            </li>
+                            <li>
+                              <span class="txt_up">作品について</span>
+                              <p class="pop_text_in">
+                                ECサイト内に設置するバナーという題材で作成しました。<br>
+                                ターゲット層に合うカラーを選び、大人をイメージしました。
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- 閉じるボタン -->
+                    </li>
+                    <!-- サマーセールのバナー -->
+
+                    <!-- map -->
+                    <li class="woks06">
+                      <button type="button" tabindex="-1" class="js-modalButton modal-button" data-id="modal6">
+                        <img src="images/career_works/map.png" alt="map">
+                      </button>
+                      <p class="column_txt_en">地図作成<br>
+                        （職業訓練校 課題）
+                      </p>
+                      <!-- 閉じるボタン -->
+                      <div class="js-modal modal" data-id="modal6">
+                        <button type="button" tabindex="-1" class="js-modalClose modal-close">✕</button>
+                        <div class="modal-inner bnr">
+                          <h2>地図作成</h2>
+                          <div class="map"></div>
+                          <ul class="pop_text">
+                            <li>
+                              <span class="txt_up">作品について</span>
+                              <p class="pop_text_in">
+                                フライヤーや名刺などに使える素材として地図を模写しながら、図形とペンツールを使い、線路や目印を作成しました。
+                              </p>
+                            </li>
+                            <li>
+                              <span>使用ツール</span>
+                              <p class="pop_text_in">
+                                Adobe Illustrator
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- 閉じるボタン -->
+                    </li>
+                    <!-- map -->
+
+                    <!-- logo 1 -->
+                    <li class="works07">
+                      <button type="button" tabindex="-1" class="js-modalButton modal-button" data-id="modal7">
+                        <img src="images/career_works/logo1.png" alt="logo1">
+                      </button>
+                      <p class="column_txt_en">My&nbsp;Logo&ensp;①<br>
+                        （職業訓練校 課題）
+                      </p>
+                      <!-- 閉じるボタン -->
+                      <div class="js-modal modal" data-id="modal7">
+                        <button type="button" tabindex="-1" class="js-modalClose modal-close">✕</button>
+                        <div class="modal-inner bnr">
+                          <h2>My&nbsp;Logo&ensp;①</h2>
+                          <div class="logo1"></div>
+                          <ul class="pop_text">
+                            <li>
+                              <span class="txt_up">作品について</span>
+                              <p class="pop_text_in">
+                                自身のイニシャル「M」と「Y」をテーマにしました。<br>
+                                3Dの立体的なキューブをイメージし、「W」を逆さにすると「M」に見えたため、3つの文字を使用しました。
+                                また、マスの隙間を開けることでより立体感を出せるように工夫しました。
+                              </p>
+                            </li>
+                            <li>
+                              <span>使用ツール</span>
+                              <p class="pop_text_in">
+                                Adobe Illustrator
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- 閉じるボタン -->
+                    </li>
+                    <!-- logo 1 -->
+
+                    <!-- logo 2 / 3 -->
+                    <li class="works08">
+                      <button type="button" tabindex="-1" class="js-modalButton modal-button" data-id="modal8">
+                        <img src="images/career_works/logo2.png" alt="logo3">
+                      </button>
+                      <p class="column_txt_en">My&nbsp;Logo&ensp;②<br>
+                        （職業訓練校 課題）
+                      </p>
+                      <!-- 閉じるボタン -->
+                      <div class="js-modal modal" data-id="modal8">
+                        <button type="button" tabindex="-1" class="js-modalClose modal-close">✕</button>
+                        <div class="modal-inner bnr">
+                          <h2>My&nbsp;Logo&ensp;②</h2>
+                          <div class="logo2"></div>
+                          <div class="logo3"></div>
+                          <ul class="pop_text">
+                            <li>
+                              <span class="txt_up">作品について</span>
+                              <p class="pop_text_in">
+                                自身のイニシャル「M」と「Y」をテーマにしました。緑色を使用したのは好きな色であり、自身のおだやかな性格をイメージした色です。<br>
+                                一つ目は、角度を変えて重なると「鍵」のようなイメージができました。<br>
+                                二つ目は、大小異なる正方形を組み合わせ、グラデーションを付け、環境対策とデジタルを融合させた様なロゴをイメージしました。
+                              </p>
+                            </li>
+                            <li>
+                              <span>使用ツール</span>
+                              <p class="pop_text_in">
+                                Adobe Illustrator
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- 閉じるボタン -->
+                    </li>
+                    <!-- logo 2 / 3 -->
+
+                    <!-- Pixel Art -->
+                    <li class="woks09">
+                      <button type="button" tabindex="-1" class="js-modalButton modal-button" data-id="modal9">
+                        <img src="images/career_works/pixel.png" alt="pixel">
+                      </button>
+                      <p class="column_txt_en">Pixel&nbsp;Art<br>
+                        （自主制作）
+                      </p>
+                      <!-- 閉じるボタン -->
+                      <div class="js-modal modal" data-id="modal9">
+                        <button type="button" tabindex="-1" class="js-modalClose modal-close">✕</button>
+                        <div class="modal-inner portfolio">
+                          <h2>Pixel&nbsp;Art</h2>
+                          <div class="art"></div>
+                          <ul class="pop_text">
+                            <li>
+                              <span class="txt_up">作品について</span>
+                              <p class="pop_text_in">
+                               キャラクターのヨッシーが好きでドットを使うことでレトロ感を出しました。Illustratorで正方形を組み合わせて、画像を模写する様に作成し3D機能を使いました。
+                              </p>
+                            </li>
+                            <li>
+                              <span>使用ツール</span>
+                              <p class="pop_text_in">
+                                Adobe Illustrator
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- 閉じるボタン -->
+                    </li>
+                    <!-- Pixel Art -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- works -->
+        </main>
+        <!-- メインエリア -->
+
+        <!-- footer -->
+        <footer id="footer">
+          <div class="footer-area">
+            <div class="inner">
+              <div class="f-inner">
+                <!-- footer navi -->
+                <div class="fNavi">
+                  <nav>
+                    <ul class="fNavi-list">
+                      <!-- <li class="fNavi-item">
+                        <a href="" class="hover-op page-top">Top</a>
+                      </li> -->
+                      <li class="fNavi-item">
+                        <a href="index.html" class="hover-op">About</a>
+                      </li>
+                      <li class="fNavi-item">
+                        <a href="photography.html" class="hover-op">Photography</a>
+                      </li>
+                      <li class="fNavi-item">
+                        <a href="contact.html" class="hover-op">Contact</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <!-- footer navi -->
+              </div>
+            </div>
+            <small class="copy">©️ 2023-2024 My name is written here!</small>
+          </div>
+        </footer>
+        <!-- footer -->
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My | portfolio</title>
+    <meta name="description" content="ポートフォリオサイトです。">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="format-detection" content="telephone=no,address=no,date=no,email=no">
+    <link rel="icon" href="images/header_mv/favicon.ico" id="favicon">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/header_mv/apple-touch-icon.png">
+    <!-- フォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Gelasio&family=Montserrat:wght@100&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/photography_pc.css" media="print,screen  and (min-width:768px)">
+    <link rel="stylesheet" href="css/photography_sp.css" media="all and (max-width: 767px)">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    <script src="js/works.js" defer></script>
+  </head>
+  <body>
+    <div id="home" class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="inner">
+          <!-- ロゴ -->
+          <div class="header_inner">
+            <a href="index.html" class="header_logo">
+              <img src="images/header_mv/my_logo_b.png" alt="アイコン">
+            </a>
+            <!-- pc nav -->
+            <ul class="header_inner_list">
+              <li class="header_inner_listItem">
+                <a href="index.html" class="h-hover-op">About</a>
+              </li>
+              <li class="header_inner_listItem">
+                <a href="works.html" class="h-hover-op">Works</a>
+              </li>
+              <li class="header_inner_listItem">
+                <a href="" class="line">Photography</a>
+              </li>
+              <li class="header_inner_listItem">
+                <a href="contact.html" class="h-hover-op">Contact</a>
+              </li>
+            </ul>
+            <!-- pc nav -->
+
+            <!-- sp nav -->
+            <div class="sp-nav">
+              <!-- ハンバーガーメニュー -->
+              <button id="js-hamberger" type="button" class="hamberger" aria-controls="navigation" aria-expanded="false">
+                <span class="hamberger__line"></span>
+              </button>
+              <!-- ハンバーガーメニュー -->
+
+              <!-- 中身 -->
+              <div class="header__nav-area js-nav-area" id="navigation">
+                <nav id="js-global-navigation" class="global-navigation">
+                  <ul class="global-navigation__list">
+                    <li>
+                      <a href="index.html">About</a>
+                    </li>
+                    <li>
+                      <a href="works.html">Works</a>
+                    </li>
+                    <li>
+                      <a href="photography.html">Photography</a>
+                    </li>
+                    <li>
+                      <a href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- 中身 -->
+            </div>
+            <!-- sp nav -->
+          </div>
+          <!-- ロゴ -->
+        </div>
+      </header>
+      <!-- header -->
+
+      <!-- メインエリア -->
+      <div id="container">
+        <main id="main-area">
+          <!-- Photography -->
+          <section id="photo-area" class="header-change-position">
+            <div class="inner">
+              <div class="photo-content">
+                <h2 class="photo-title">Photography</h2>
+                <div class="photo-content-main">
+                  <ul class="photo-column">
+                    <li class="vertical">
+                      <img src="images/photography/photo1.webp" alt="fuji">
+                    </li>
+                    <li class="vertical">
+                      <img src="images/photography/photo2.webp" alt="sun">
+                    </li>
+                    <li class="vertical">
+                      <img src="images/photography/photo3.webp" alt="art">
+                    </li>
+                    <li class="vertical">
+                      <img src="images/photography/photo4.webp" alt="leaves">
+                    </li>
+                    <li class="vertical">
+                      <img src="images/photography/photo5.webp" alt="red-sun">
+                    </li>
+                    <li class="vertical">
+                      <img src="images/photography/photo6.webp" alt="osean">
+                    </li>
+                    <li class="photo07">
+                      <img src="images/photography/photo7.webp" alt="snow" class="snow">
+                    </li>
+                    <li class="horizon">
+                      <img src="images/photography/photo8.webp" alt="letro1" class="small">
+                    </li>
+                    <li class="horizon">
+                      <img src="images/photography/photo9.webp" alt="letro2" class="small">
+                    </li>
+                    <li class="vertical">
+                      <img src="images/photography/photo10.webp" alt="yamanaka-lake">
+                    </li>
+                    <li class="vertical">
+                      <img src="images/photography/photo11.webp" alt="tennoji">
+                    </li>
+                    <li class="vertical">
+                      <img src="images/photography/photo12.webp" alt="huistenbosch">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- photography -->
+        </main>
+        <!-- メインエリア -->
+
+        <!-- footer -->
+        <footer id="footer">
+          <div class="footer-area">
+            <div class="inner">
+              <div class="f-inner">
+                <!-- footer navi -->
+                <div class="fNavi">
+                  <nav>
+                    <ul class="fNavi-list">
+                      <!-- <li class="fNavi-item">
+                        <a href="" class="hover-op page-top">Top</a>
+                      </li> -->
+                      <li class="fNavi-item">
+                        <a href="index.html" class="hover-op">About</a>
+                      </li>
+                      <li class="fNavi-item">
+                        <a href="works.html" class="hover-op">Works</a>
+                      </li>
+                      <li class="fNavi-item">
+                        <a href="contact.html" class="hover-op">Contact</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <!-- footer navi -->
+              </div>
+              <small class="copy">©️ 2023-2024 My name is written here!</small>
+            </div>
+          </div>
+        </footer>
+        <!-- footer -->
+      </div>
+    </div>
+  </body>
+</html>
